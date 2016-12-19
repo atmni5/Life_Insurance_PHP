@@ -1,0 +1,149 @@
+/* CSS Document */
+/* 	CSS of Google+ Activity Widget v1.0
+	Blog : http://www.moretechtips.net
+	Project: http://code.google.com/p/googleplus-activity-widget/
+*/
+
+/* activity list */
+ul.gpaw-body{
+	font: 100% arial,sans-serif;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	position:relative;
+	background:#FFF;
+	color:#000;
+}
+ul.gpaw-body li{
+	border-bottom:#666 1px solid;
+	margin:0 0 4px 0;
+	padding:4px;
+	list-style-type:none;
+	overflow:hidden
+}
+ul.gpaw-body .thumb{
+	display:block;
+	float:right;
+	margin:0 0 5px 5px
+}
+ul.gpaw-body .thumb a{
+	text-decoration:none;
+	outline:none
+}
+ul.gpaw-body .thumb img{
+	border:#666 1px solid
+}
+ul.gpaw-body .thumb a:hover img{
+	border:#999 1px solid
+}
+ul.gpaw-body .title a{
+	outline:none;
+	text-decoration:none;
+	color:#fff
+}
+ul.gpaw-body .title a:hover {
+	color:#eee
+}
+
+/* meta : date, plusones */
+ul.gpaw-body .meta {
+	color:#ccc;
+	display:block;
+	font-size:95%;
+	margin:5px 0 0;
+	overflow:hidden;
+	clear:both
+}
+ul.gpaw-body .meta a, ul.gpaw-body .meta span{
+	display:block;
+	float:left;
+	padding:0 6px 0 0
+}
+ul.gpaw-body .meta a{
+	color:#ccc;
+	text-decoration:none
+}
+ul.gpaw-body .meta a:hover{
+	color:#fff;
+	text-decoration:none
+}
+ul.gpaw-body .plusones{
+	color:#8BA8E2;
+	font-style: italic
+}
+ul.gpaw-body .shares{
+	color:#8BA8E2
+}	
+
+/* Fade-out effect with transparent png  */
+ul.gpaw-body .fade{
+    background:url(http://googleplus-activity-widget.googlecode.com/svn/v1/fade.png) repeat-x left bottom;
+   	opacity:0.3;
+    background:expression("");
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 10
+}
+/* Profile */
+.gpaw-profile{
+	border-top:#444 1px solid;
+	border-bottom: 1px solid #444;
+	background:#FFF;
+	color:#000;
+	padding:8px;
+	overflow:hidden
+}
+.gpaw-profile a.avatar{
+	display:block;
+	float:left;
+	text-decoration:none;
+	outline:none;
+	margin:0 10px 0 0
+}
+.gpaw-profile a.avatar img{
+	border:#666 1px solid;
+	display:block
+}
+.gpaw-profile a.avatar:hover img{
+	border:#999 1px solid;
+	display:block
+}
+.gpaw-profile .name{
+	font-size:120%;
+	font-weight:bold;
+	overflow:hidden;
+	margin:0 0 8px 0
+}
+.gpaw-profile a.add{
+	display:inline-block;
+	text-decoration:none;
+	outline:none;
+	padding:4px 8px;
+	background-color:#666;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #eee
+}
+.gpaw-profile a.add:hover{
+	background-color: #D14836;
+    border: 1px solid transparent;
+	color:#fff
+}
+a.gpaw-info{
+	border-top:#666 1px solid;
+	border-bottom:#666 1px solid;
+	background:#333;
+	padding:3px;
+	text-align:right;
+	font-size:80%;
+	text-decoration:none;
+	color:#ccc;
+	display:none
+}
+a.gpaw-info:hover{
+	color:#eee
+}

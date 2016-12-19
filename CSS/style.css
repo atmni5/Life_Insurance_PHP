@@ -1,0 +1,271 @@
+@charset "UTF-8";
+body
+{
+	margin:0px;
+}
+#container-wholepage
+{
+	width:100%;
+	height:1500px;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+#gradient
+{
+	margin:auto;
+	width:100%;
+	height:350px;
+	background-image:url(../Images/gradient.jpg);
+	background-color:#000;
+}
+#gradient-2
+{
+	width:100%;
+	min-height:1150px;
+	background: rgb(175,175,175);
+	background: -moz-linear-gradient(top,  rgba(175,175,175,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(175,175,175,1)), color-stop(100%,rgba(255,255,255,1))); 
+	background: -webkit-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(255,255,255,1) 100%); 
+	background: -o-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(255,255,255,1) 100%); 
+	background: -ms-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(255,255,255,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(175,175,175,1) 0%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#ffffff',GradientType=0 );
+	background-attachment:fixed !important;
+}
+#container-logo
+{
+	width:960px;
+    height:250px;
+	margin:auto;
+}
+#push
+{
+	width:1px;
+	height:75px;
+}
+#logo
+{
+	height:150px;
+	width:250px;
+	display:inline;
+}
+#shopping-cart
+{
+	width:200px;
+	height:50px;
+	float:right;
+	display:inline;
+	text-decoration:none;
+	margin-top:80px;
+	margin-right:10px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:#FFF solid 2px;
+	font-size:40px;
+	color:#FFF;
+}
+#container-links
+{
+	height:100px;
+	width:100%;
+	float:left;
+}
+.links
+{
+	width:190px;
+	height:53px;
+	background-color:#FFF;
+	margin-top:47px;
+	vertical-align:sub;
+	text-decoration:none;
+	text-align:center;
+	font-size:30px;
+	color:#000;
+	float:left;
+	border-top-left-radius:20px 20px;
+	border-top-right-radius:20px 20px;
+	border-left:#000 solid 1px;
+	border-right:#000 solid 1px;
+}
+#text
+{
+	margin:auto;
+	width:940px;
+	min-height:1150px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:28px;
+	background-color:#FFF;
+	text-align:justify;
+}
+.links:hover
+{
+	/*background-color:#F3F3F3;*/
+	background: rgb(204,204,204); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+#login
+{
+	width:960px;
+	height:25px;
+	color:#FFF;
+	text-align:right;
+	margin:auto;
+}
+#username
+{
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+}
+#password
+{
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+}
+#login-register
+{
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+	background-color:#FFF;
+	border:inset #FFF 2px;
+}
+#login-2
+{
+	width:100px;
+	height:20px;
+	border-bottom-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+	color:#000;
+	background-color:#FFF;
+	float:right;
+	text-align:center;
+	border-left:#FFF outset 3px;
+	border-bottom:#FFF outset 3px;
+	border-right:#FFF outset 3px;
+}
+#login-2:hover
+{
+	/*background-color:#F3F3F3;*/
+	background: rgb(204,204,204); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(204,204,204,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+#text-centre
+{
+	font-size:28px;
+	color:#000;
+	width:100%;
+	text-align:center
+}
+#facebook
+{
+	float:left;
+}
+#registration-table-1
+{
+	text-align:left;
+	width:197px; 
+	height:40px;
+	vertical-align:middle;
+	padding-left:0px;
+}
+#registration-table-2
+{
+	text-align:right;
+}
+#registration-form
+{
+	width:400px;
+	height:600px;
+	margin:auto;
+	padding-top:50px;
+}
+#media
+{
+	width:940px;
+	padding-left:-10px;
+	height:150px;
+	overflow:hidden;
+}
+#film
+{
+	width:2821px;
+	height:150px;	
+}
+.slide
+{
+	width:940px;
+	height:150px;
+	margin:auto;
+	float:left;
+}
+.products
+{
+	width:921px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	/*outline: 6px auto #000000;
+    outline-offset: 10px; /*Delete if you don't want an offset*/
+	
+	border:ridge 3px #E0E0E0;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.add
+{
+	float:right;
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+	background-color:#FFF;
+	border:inset #FFF 2px;
+}
+.edit
+{
+border:ridge 3px #E0E0E0;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+width:600px;
+margin:auto;
+margin-top:10px;
+min-height:10px;
+}
+.edit2
+{
+	float:right;
+	margin-right:10px;
+	min-width:1px;
+}
+.user-links
+{
+	width:180px;
+	height:40px;
+	float:left;
+	border-top:#E0E0E0 ridge 3px;
+	border-right:#E0E0E0 ridge 3px;
+	border-top-right-radius:15px;
+}
